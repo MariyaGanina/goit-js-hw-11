@@ -1,1 +1,90 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+
+body {
+  background-color: rgb(240, 208, 213);
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  background-color: pink;
+}
+
+.inputField {
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.search-button {
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+}
+
+.hide {
+  display: none;
+}
+
+.load-more {
+  margin-top: 20px;
+  border: none;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: pink;
+  color: #333;
+}
+
+.load {
+  text-align: center;
+}
+
+.subscription {
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+  flex-flow: column wrap;
+
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.subscription-text {
+  text-align: center;
+  color: rgb(191, 65, 86);
+  font-weight: 300;
+}
+
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(236, 122, 135);
+}
+
+.gallery {
+  align-items: center;
+  flex-flow: wrap;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  width: 320px;
+  height: 280px;
+  object-fit: cover;
+}

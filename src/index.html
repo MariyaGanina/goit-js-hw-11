@@ -9,7 +9,20 @@
   </head>
   <body>
     <!-- ❗️❗️❗️ Add partials like so for every page -->
-
-    <include src="./partials/example.html"></include>
+    <form class="search-form" id="search-form">
+      <input
+        type="text"
+        name="searchQuery"
+        class="inputField"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button type="submit" class="search-button">Search</button>
+    </form>
+    <div class="gallery"></div>
+    <div class="load">
+      <button type="button" class="load-more">Load more</button>
+    </div>
+    <script src="/src/index.js" type="module"></script>
   </body>
 </html>
